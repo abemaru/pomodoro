@@ -2,6 +2,7 @@ import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
   return (
+		<div class="h-screen w-screen bg-gray-700">
     <div class="p-4 mx-auto max-w-screen-md">
       <img
         src="/logo.svg"
@@ -14,5 +15,6 @@ export default function Home() {
       </p>
       <Counter start={3} />
     </div>
+		</div>
   );
 }
