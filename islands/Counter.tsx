@@ -9,23 +9,20 @@ export default function Counter(props: CounterProps) {
   const [count, setCount] = useState(props.start);
   return (
     <div class="flex justify-center">
-			<div>
+			<div class="py-3 text(white)">
 				Mob Timer
 			</div>
-			<div style="rounded-l-lg bg-orange">
-				<Button
-					class="rounded-l-lg"
-					onClick={() => setCount(count - 1)}>-</Button>
-			</div>
-			<div class="px-4 py-2 text(2xl white) border(white 2)">
+			<Button
+				class="rounded-l-lg bg-orange px-4 py-2 text(gray-300)"
+				onClick={() => setCount(count - 1)}>-
+			</Button>
+			<div class="px-4 py-2 text(2xl white) border-y-1">
         <p>{count}</p>
 			</div>
-			<div>
-        <Button
-					class="rounded-r-lg"
+			<Button
+				class="rounded-r-lg bg-orange px-4 py-2 text(gray-300)"
 				onClick={() => setCount(count + 1)}>+</Button>
-			</div>
-			<div>
+			<div class="py-3 text(white)">
 				minutes
 			</div>
     </div>
