@@ -3,4 +3,11 @@ import * as colors from "twind/colors";
 
 export default {
   selfURL: import.meta.url,
+	theme: {
+		extend: {
+			colors: {
+				"orange": "#f08300",
+			}
+		}
+	}
 } as Options;

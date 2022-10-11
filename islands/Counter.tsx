@@ -10,13 +10,23 @@ export default function Counter(props: CounterProps) {
   return (
     <div class="flex justify-center">
 			<div>
-				<Button onClick={() => setCount(count - 1)}>-1</Button>
+				Mob Timer
 			</div>
-			<div class="px-5 text(4xl white)">
+			<div style="rounded-l-lg bg-orange">
+				<Button
+					class="rounded-l-lg"
+					onClick={() => setCount(count - 1)}>-</Button>
+			</div>
+			<div class="px-4 py-2 text(2xl white) border(white 2)">
         <p>{count}</p>
 			</div>
 			<div>
-        <Button onClick={() => setCount(count + 1)}>+1</Button>
+        <Button
+					class="rounded-r-lg"
+				onClick={() => setCount(count + 1)}>+</Button>
+			</div>
+			<div>
+				minutes
 			</div>
     </div>
   );
