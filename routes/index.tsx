@@ -1,5 +1,6 @@
 import Counter from "../islands/Counter.tsx";
 import Timer from "../islands/Timer.tsx";
+import Header from "../components/Header.tsx"
 
 export default function Home() {
   return (
