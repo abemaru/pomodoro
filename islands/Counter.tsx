@@ -89,14 +89,14 @@ export default function Counter() {
 				</div>
 				<Button
 					class="rounded-l-lg bg-orange px-4 py-2 text(gray-300)"
-					onClick={() => handleWorkingMinutesMinus}>-
+					onClick={handleWorkingMinutesMinus}>-
 				</Button>
 				<div class="px-4 py-2 text(2xl white) border-y-1">
     	    <p>{counters.workingMinutes}</p>
 				</div>
 				<Button
 					class="rounded-r-lg bg-orange px-4 py-2 text(gray-300)"
-					onClick={() => handleWorkingMinutesPlus}>+</Button>
+					onClick={handleWorkingMinutesPlus}>+</Button>
 				<div class="py-3 pl-3 text(white)">
 					minutes
 				</div>
@@ -107,14 +107,14 @@ export default function Counter() {
 				</div>
 				<Button
 					class="rounded-l-lg bg-orange px-4 py-2 text(gray-300)"
-					onClick={() => handleBreakMinutesMinus}>-
+					onClick={handleBreakMinutesMinus}>-
 				</Button>
 				<div class="px-4 py-2 text(2xl white) border-y-1">
     	    <p>{counters.breakMinutes}</p>
 				</div>
 				<Button
 					class="rounded-r-lg bg-orange px-4 py-2 text(gray-300)"
-					onClick={() => handleBreakMinutesPlus}>+</Button>
+					onClick={handleBreakMinutesPlus}>+</Button>
 				<div class="py-3 pl-3 text(white)">
 					minutes
 				</div>
@@ -125,14 +125,14 @@ export default function Counter() {
 				</div>
 				<Button
 					class="rounded-l-lg bg-orange px-4 py-2 text(gray-300)"
-					onClick={() => handleLongBreakMinutesMinus}>-
+					onClick={handleLongBreakMinutesMinus}>-
 				</Button>
 				<div class="px-4 py-2 text(2xl white) border-y-1">
     	    <p>{counters.longBreakMinutes}</p>
 				</div>
 				<Button
 					class="rounded-r-lg bg-orange px-4 py-2 text(gray-300)"
-					onClick={() => handleLongBreakMinutesPlus}>+</Button>
+					onClick={handleLongBreakMinutesPlus}>+</Button>
 				<div class="py-3 pl-3 text(white)">
 					minutes
 				</div>
@@ -143,14 +143,14 @@ export default function Counter() {
 				</div>
 				<Button
 					class="rounded-l-lg bg-orange px-4 py-2 text(gray-300)"
-					onClick={() => handleBreakAfterMinus}>-
+					onClick={handleBreakAfterMinus}>-
 				</Button>
 				<div class="px-4 py-2 text(2xl white) border-y-1">
     	    <p>{counters.breakAfter}</p>
 				</div>
 				<Button
 					class="rounded-r-lg bg-orange px-4 py-2 text(gray-300)"
-					onClick={() => handleBreakAfterPlus}>+</Button>
+					onClick={handleBreakAfterPlus}>+</Button>
 				<div class="py-3 pl-3 text(white)">
 					times
 				</div>
@@ -161,14 +161,14 @@ export default function Counter() {
 				</div>
 				<Button
 					class="rounded-l-lg bg-orange px-4 py-2 text(gray-300)"
-					onClick={() => handleLongBreakAfterMinus}>-
+					onClick={handleLongBreakAfterMinus}>-
 				</Button>
 				<div class="px-4 py-2 text(2xl white) border-y-1">
     	    <p>{counters.longBreakAfter}</p>
 				</div>
 				<Button
 					class="rounded-r-lg bg-orange px-4 py-2 text(gray-300)"
-					onClick={() => handleLongBreakAfterPlus}>+</Button>
+					onClick={handleLongBreakAfterPlus}>+</Button>
 				<div class="py-3 pl-3 text(white)">
 					times
 				</div>
