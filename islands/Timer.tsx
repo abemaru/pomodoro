@@ -1,4 +1,4 @@
-
+import { workingMinutes } from "./Counter.tsx";
 
 const Min = 10;
 const Sec = 10;
