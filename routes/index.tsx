@@ -7,7 +7,7 @@ export default function Home() {
 		<div class="h-screen w-screen bg-gray-700">
 			<PomodoroHeader />
       <Counter />
-			<Timer />
+			<Timer min={10} sec={10}/>
 		</div>
   );
 }
